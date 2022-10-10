@@ -1,8 +1,7 @@
 .work {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
-  margin-top: 50px;
+
+  @include centerFlex ();
+ 
 }
 
 .work__item {
