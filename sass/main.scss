@@ -1,27 +1,65 @@
+// utils
+
 @import './utils/variables';
 @import './utils/visually-hidden';
 @import './utils/mixin';
-@import './components/body';
-@import './components/header-portfolio';
-@import './components/section';
-@import './components/container';
+
+// base
+
+@import './base/body';
+@import './base/section';
+@import './base/title';
+@import './base/container';
+
+
+// layouts
+
+@import './layouts/header-portfolio';
+@import './layouts/hero';
+@import './layouts/feature';
+@import './layouts/work';
+@import './layouts/team';
+@import './layouts/customers';
+@import './layouts/footer/footer-address';
+@import './layouts/footer/subscribe';
+@import './layouts/portfolio-filter';
+@import './layouts/portfolio/product-portfolio';
+
+
+// components
+
 @import './components/logo';
-@import './components/site-nave';
-@import './components/auth-nav';
-@import './components/hero';
-@import './components/button-primary';
-@import './components/feature';
-@import './components/work';
-@import './components/team';
-@import './components/social-team';
-@import './components/customers';
-@import './components/footer-address';
-@import './components/footer-social';
-@import './components/subscribe';
-@import './components/portfolio-filter';
+@import './components/nav/site-nave';
+@import './components/nav/auth-nav';
+
+
+// button components
+
+@import './components/button/button-primary';
+@import './components/button/button-subscribe';
+@import './components/button/button-second';
+@import './components/button/button-modal';
+
+
+// social
+
+@import './components/social/social-team';
+@import './components/social/footer-social';
+
+
+// modal
+
+@import './components/modal/modal';
+@import './components/modal/modal-form';
+
+
+// card
+
 @import './components/project-card';
-@import './components/product-portfolio';
-@import './components/modal';
-@import './components/_modal-form';
+
+// overlay
+@import './components/overlay';
+
+
 
 
